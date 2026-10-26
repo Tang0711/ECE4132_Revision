@@ -61,7 +61,7 @@ Only the angular position $y(t) = \theta(t)$ is measured by a shaft encoder; ang
 
 From the linearised differential equations: $$\begin{bmatrix} \dot{x}_1(t) \ \dot{x}_2(t) \end{bmatrix} = \begin{bmatrix} 0 & 1 \ 1 & 0 \end{bmatrix} \begin{bmatrix} x_1(t) \ x_2(t) \end{bmatrix} + \begin{bmatrix} 0 \ 1 \end{bmatrix} u(t)$$ $$y(t) = \begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} x_1(t) \ x_2(t) \end{bmatrix}$$
 
-Thus: $$A = \begin{bmatrix} 0 & 1 \ 1 & 0 \end{bmatrix}, \quad B = \begin{bmatrix} 0 \ 1 \end{bmatrix}, \quad C = \begin{bmatrix} 1 & 0 \end{bmatrix}, \quad D = 0$$
+Thus: $$A = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}, \quad B = \begin{bmatrix} 0 \\ 1 \end{bmatrix}, \quad C = \begin{bmatrix} 1 & 0 \end{bmatrix}, \quad D = 0$$
 
 #### Eigenvalue and Stability Analysis
 
@@ -214,5 +214,3 @@ $$\int_{0}^{\infty} \ln |S(j\omega)| , d\omega = \pi \sum_{\text{Re}(p_k) > 0} p
 ```
 
 ---
-
-💡 Would you like to evaluate how an added non-minimum-phase zero (e.g. at $s = +3$) would interact with this unstable pole to constrain peak sensitivity, or would you prefer to explore numerical MATLAB verification commands for this problem?

@@ -1,0 +1,49 @@
+# --- Core LaTeX auxiliary files ---
+*.aux
+*.log
+*.toc
+*.out
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# --- Bibliography files ---
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# --- Index and Glossary files ---
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+
+# --- Beamer specific (if applicable) ---
+*.snm
+*.vrb
+
+# --- TeXstudio specific backup & session files ---
+*.bak
+*.tex.bak
+*.sav
+.texstudio/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Built Visual Studio Code Extensions
+*.vsix
